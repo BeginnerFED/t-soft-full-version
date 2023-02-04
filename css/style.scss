@@ -179,7 +179,12 @@ $border: #EFEFFF;
 
 /* cards */
 .cards{
-    
+    .card{
+        cursor: pointer;
+    }
+    .card:hover{
+        opacity: 0.8;
+    }
     .avatar{
         height: 30px;
     }
